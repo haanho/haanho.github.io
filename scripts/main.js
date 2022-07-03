@@ -2,7 +2,7 @@ let myImage = document.querySelector('img');
 myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
     if(mySrc === "images/kotik-cannabis.png" ) {
-        myImage.setAttribute('src', 'images/61DkhkBCVtL.jpg');
+        myImage.setAttribute('src', 'images/360_F_412414694_rGaT4HZIqIt0HLo2SoWkxtiGS8GFPXc7.jpg');
     } else {
         myImage.setAttribute('src', "images/kotik-cannabis.png");
     }
